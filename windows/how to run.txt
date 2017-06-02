@@ -1,0 +1,1 @@
+change the path of eclipse and just run build.bat in command line

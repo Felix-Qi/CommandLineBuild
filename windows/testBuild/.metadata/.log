@@ -1,0 +1,2045 @@
+!SESSION 2016-11-07 13:13:26.302 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -build ../Debug -cleanBuild ../Debug
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data ../ -build ../Debug -cleanBuild ../Debug
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.766
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.starting in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.767
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.rebuild.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.768
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.update.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.768
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.769
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.770
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.make in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.770
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.771
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.regen.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.771
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.772
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.creating.markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.772
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.console.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.773
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.header.note in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.773
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.no.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.774
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.774
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error.refresh in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.775
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.775
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.cancelled in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.776
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished.with.errs in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.776
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.777
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.stopped.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.777
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.deleting.output in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.778
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.build.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.779
+!MESSAGE NLS unused message: ManagedMakeBuilder.type.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.779
+!MESSAGE NLS unused message: ManagedMakeBuider.type.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.780
+!MESSAGE NLS unused message: ManagedMakeBuider.type.rebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.780
+!MESSAGE NLS unused message: ManagedMakeBuilder.warning.unsupported.configuration in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.781
+!MESSAGE NLS unused message: Option.error.bad_value_type in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.781
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_null in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.782
+!MESSAGE NLS unused message: ManagedBuildManager.error.null_owner in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.782
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.783
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest_load_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.783
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.784
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.784
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.resolving in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.785
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.duplicate in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.785
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.icon in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.786
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.category in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.786
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.filter in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.787
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.valuehandler in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.787
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.788
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.789
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.789
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.789
+!MESSAGE NLS unused message: ManagedBuildManager.error.read_only in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.790
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.790
+!MESSAGE NLS unused message: ManagedBuildManager.error.id.nomatch in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.791
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.file.missing in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.791
+!MESSAGE NLS unused message: MakefileGenerator.message.start.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.792
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.792
+!MESSAGE NLS unused message: MakefileGenerator.message.start.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.792
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.793
+!MESSAGE NLS unused message: MakefileGenerator.message.start.dependency in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.793
+!MESSAGE NLS unused message: MakefileGenerator.message.no.target in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.794
+!MESSAGE NLS unused message: MakefileGenerator.message.adding.source.folder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.794
+!MESSAGE NLS unused message: MakefileGenerator.message.gen.source.makefile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.795
+!MESSAGE NLS unused message: MakefileGenerator.message.calc.delta in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.795
+!MESSAGE NLS unused message: MakefileGenerator.message.finding.sources in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.795
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.796
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.variables in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.796
+!MESSAGE NLS unused message: MakefileGenerator.comment.source.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.797
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.rule in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.797
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toprules in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.798
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.alltarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.798
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.mainbuildtarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.799
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toptargets in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.799
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.make.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.800
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.dep.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.800
+!MESSAGE NLS unused message: MakefileGenerator.comment.autodeps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.801
+!MESSAGE NLS unused message: MakefileGenerator.comment.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.801
+!MESSAGE NLS unused message: MakefileGenerator.error.spaces in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.801
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Make_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.802
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Command in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.802
+!MESSAGE NLS unused message: MakeBuilder.Updating_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.803
+!MESSAGE NLS unused message: MakeBuilder.Creating_Markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.803
+!MESSAGE NLS unused message: MakefileGenerator.warning.no.source in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.804
+!MESSAGE NLS unused message: MakefileGenerator.error.no.nameprovider in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.804
+!MESSAGE NLS unused message: ManagedBuildInfo.message.job.init in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.804
+!MESSAGE NLS unused message: ManagedBuildInfo.message.init.ok in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.805
+!MESSAGE NLS unused message: GnuMakefileGenerator.message.postproc.dep.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.805
+!MESSAGE NLS unused message: Configuration.orphaned in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.806
+!MESSAGE NLS unused message: Tool.default.announcement in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.806
+!MESSAGE NLS unused message: Tool_Problem_Discovering_Args_For_Option in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.807
+!MESSAGE NLS unused message: StorableEnvironmentLoader.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.807
+!MESSAGE NLS unused message: UserDefinedMacroSupplier.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.807
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.808
+!MESSAGE NLS unused message: BuildFilesAction.buildingSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.808
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.809
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.809
+!MESSAGE NLS unused message: BuildFilesAction.buildSelectedFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.809
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.eachother in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.810
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.incorrect in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.810
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.string in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.811
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.stringlist in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.811
+!MESSAGE NLS unused message: BuildMacroStatus.status.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.811
+!MESSAGE NLS unused message: BuildMacroStatus.value.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.812
+!MESSAGE NLS unused message: BuildInfoFactory.Missing_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.812
+!MESSAGE NLS unused message: ResourceChangeHandler.buildInfoSerializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.812
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildResourcesFinished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.813
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedIncremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.813
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedRebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.814
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildingFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.814
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.814
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.815
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.815
+!MESSAGE NLS unused message: BuildFilesAction.building in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.816
+!MESSAGE NLS unused message: BuildFilesAction.buildFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.816
+!MESSAGE NLS unused message: ManagedBuilderCorePlugin.resourceChangeHandlingInitializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.816
+!MESSAGE NLS unused message: InternalBuilder.msg.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.817
+!MESSAGE NLS unused message: InternalBuilder.nothing.todo in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.817
+!MESSAGE NLS unused message: CfgScannerConfigUtil_ErrorNotSupported in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.818
+!MESSAGE NLS unused message: CleanFilesAction.cleanFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.818
+!MESSAGE NLS unused message: CleanFilesAction.cleanSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.818
+!MESSAGE NLS unused message: CleanFilesAction.cleaningFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.819
+!MESSAGE NLS unused message: BuilderFactory.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.819
+!MESSAGE NLS unused message: FolderInfo.4 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.819
+!MESSAGE NLS unused message: MbsMacroSupplier.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.820
+!MESSAGE NLS unused message: MbsMacroSupplier.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.820
+!MESSAGE NLS unused message: GnuLinkOutputNameProvider.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.821
+!MESSAGE NLS unused message: CommonBuilder.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.821
+!MESSAGE NLS unused message: CommonBuilder.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.822
+!MESSAGE NLS unused message: CommonBuilder.6 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.822
+!MESSAGE NLS unused message: CommonBuilder.7 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.822
+!MESSAGE NLS unused message: CommonBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.823
+!MESSAGE NLS unused message: CommonBuilder.16 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.823
+!MESSAGE NLS unused message: CommonBuilder.12 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.824
+!MESSAGE NLS unused message: CommonBuilder.13 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.824
+!MESSAGE NLS unused message: CommonBuilder.22 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.825
+!MESSAGE NLS unused message: CommonBuilder.23 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.832
+!MESSAGE NLS unused message: CommonBuilder.24 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.833
+!MESSAGE NLS unused message: MakeBuilder.buildError in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.834
+!MESSAGE NLS unused message: MultiResourceInfo.MultiResourceInfo.UnhandledIHoldsOptionsType in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.834
+!MESSAGE NLS unused message: ResourceChangeHandler2.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.834
+!MESSAGE NLS unused message: ToolInfo.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:13:27.835
+!MESSAGE NLS unused message: ToolInfo.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+!SESSION 2016-11-07 13:14:14.907 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -build ../Debug -cleanBuild ../Debug
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data ../ -build ../Debug -cleanBuild ../Debug
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.355
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.starting in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.356
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.rebuild.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.356
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.update.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.357
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.357
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.357
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.make in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.358
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.358
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.regen.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.359
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.359
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.creating.markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.360
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.console.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.360
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.header.note in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.361
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.no.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.361
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.361
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error.refresh in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.362
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.362
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.cancelled in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.363
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished.with.errs in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.363
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.364
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.stopped.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.364
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.deleting.output in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.365
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.build.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.365
+!MESSAGE NLS unused message: ManagedMakeBuilder.type.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.365
+!MESSAGE NLS unused message: ManagedMakeBuider.type.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.366
+!MESSAGE NLS unused message: ManagedMakeBuider.type.rebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.366
+!MESSAGE NLS unused message: ManagedMakeBuilder.warning.unsupported.configuration in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.366
+!MESSAGE NLS unused message: Option.error.bad_value_type in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.367
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_null in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.367
+!MESSAGE NLS unused message: ManagedBuildManager.error.null_owner in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.368
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.368
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest_load_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.368
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.369
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.369
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.resolving in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.369
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.duplicate in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.370
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.icon in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.370
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.category in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.370
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.filter in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.371
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.valuehandler in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.371
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.371
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.372
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.372
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.372
+!MESSAGE NLS unused message: ManagedBuildManager.error.read_only in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.373
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.373
+!MESSAGE NLS unused message: ManagedBuildManager.error.id.nomatch in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.373
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.file.missing in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.374
+!MESSAGE NLS unused message: MakefileGenerator.message.start.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.374
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.374
+!MESSAGE NLS unused message: MakefileGenerator.message.start.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.375
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.375
+!MESSAGE NLS unused message: MakefileGenerator.message.start.dependency in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.375
+!MESSAGE NLS unused message: MakefileGenerator.message.no.target in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.376
+!MESSAGE NLS unused message: MakefileGenerator.message.adding.source.folder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.376
+!MESSAGE NLS unused message: MakefileGenerator.message.gen.source.makefile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.377
+!MESSAGE NLS unused message: MakefileGenerator.message.calc.delta in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.377
+!MESSAGE NLS unused message: MakefileGenerator.message.finding.sources in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.378
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.378
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.variables in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.378
+!MESSAGE NLS unused message: MakefileGenerator.comment.source.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.379
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.rule in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.379
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toprules in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.379
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.alltarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.380
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.mainbuildtarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.380
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toptargets in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.380
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.make.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.381
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.dep.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.381
+!MESSAGE NLS unused message: MakefileGenerator.comment.autodeps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.381
+!MESSAGE NLS unused message: MakefileGenerator.comment.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.382
+!MESSAGE NLS unused message: MakefileGenerator.error.spaces in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.382
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Make_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.382
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Command in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.383
+!MESSAGE NLS unused message: MakeBuilder.Updating_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.383
+!MESSAGE NLS unused message: MakeBuilder.Creating_Markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.383
+!MESSAGE NLS unused message: MakefileGenerator.warning.no.source in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.384
+!MESSAGE NLS unused message: MakefileGenerator.error.no.nameprovider in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.384
+!MESSAGE NLS unused message: ManagedBuildInfo.message.job.init in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.385
+!MESSAGE NLS unused message: ManagedBuildInfo.message.init.ok in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.385
+!MESSAGE NLS unused message: GnuMakefileGenerator.message.postproc.dep.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.386
+!MESSAGE NLS unused message: Configuration.orphaned in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.386
+!MESSAGE NLS unused message: Tool.default.announcement in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.386
+!MESSAGE NLS unused message: Tool_Problem_Discovering_Args_For_Option in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.387
+!MESSAGE NLS unused message: StorableEnvironmentLoader.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.387
+!MESSAGE NLS unused message: UserDefinedMacroSupplier.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.388
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.388
+!MESSAGE NLS unused message: BuildFilesAction.buildingSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.389
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.389
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.390
+!MESSAGE NLS unused message: BuildFilesAction.buildSelectedFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.390
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.eachother in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.391
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.incorrect in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.391
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.string in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.392
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.stringlist in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.392
+!MESSAGE NLS unused message: BuildMacroStatus.status.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.392
+!MESSAGE NLS unused message: BuildMacroStatus.value.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.393
+!MESSAGE NLS unused message: BuildInfoFactory.Missing_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.393
+!MESSAGE NLS unused message: ResourceChangeHandler.buildInfoSerializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.394
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildResourcesFinished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.394
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedIncremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.401
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedRebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.401
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildingFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.402
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.402
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.402
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.403
+!MESSAGE NLS unused message: BuildFilesAction.building in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.403
+!MESSAGE NLS unused message: BuildFilesAction.buildFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.404
+!MESSAGE NLS unused message: ManagedBuilderCorePlugin.resourceChangeHandlingInitializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.404
+!MESSAGE NLS unused message: InternalBuilder.msg.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.405
+!MESSAGE NLS unused message: InternalBuilder.nothing.todo in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.405
+!MESSAGE NLS unused message: CfgScannerConfigUtil_ErrorNotSupported in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.406
+!MESSAGE NLS unused message: CleanFilesAction.cleanFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.406
+!MESSAGE NLS unused message: CleanFilesAction.cleanSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.406
+!MESSAGE NLS unused message: CleanFilesAction.cleaningFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.407
+!MESSAGE NLS unused message: BuilderFactory.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.407
+!MESSAGE NLS unused message: FolderInfo.4 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.408
+!MESSAGE NLS unused message: MbsMacroSupplier.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.408
+!MESSAGE NLS unused message: MbsMacroSupplier.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.409
+!MESSAGE NLS unused message: GnuLinkOutputNameProvider.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.409
+!MESSAGE NLS unused message: CommonBuilder.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.409
+!MESSAGE NLS unused message: CommonBuilder.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.410
+!MESSAGE NLS unused message: CommonBuilder.6 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.410
+!MESSAGE NLS unused message: CommonBuilder.7 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.411
+!MESSAGE NLS unused message: CommonBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.411
+!MESSAGE NLS unused message: CommonBuilder.16 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.412
+!MESSAGE NLS unused message: CommonBuilder.12 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.412
+!MESSAGE NLS unused message: CommonBuilder.13 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.413
+!MESSAGE NLS unused message: CommonBuilder.22 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.413
+!MESSAGE NLS unused message: CommonBuilder.23 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.413
+!MESSAGE NLS unused message: CommonBuilder.24 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.414
+!MESSAGE NLS unused message: MakeBuilder.buildError in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.415
+!MESSAGE NLS unused message: MultiResourceInfo.MultiResourceInfo.UnhandledIHoldsOptionsType in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.415
+!MESSAGE NLS unused message: ResourceChangeHandler2.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.415
+!MESSAGE NLS unused message: ToolInfo.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:14:16.416
+!MESSAGE NLS unused message: ToolInfo.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+!SESSION 2016-11-07 13:15:14.197 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -build ../Debug
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data ../ -build ../Debug
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.630
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.starting in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.631
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.rebuild.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.631
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.update.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.632
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.632
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.633
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.make in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.633
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.634
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.regen.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.634
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.635
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.creating.markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.635
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.console.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.636
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.header.note in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.636
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.no.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.636
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.637
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error.refresh in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.637
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.638
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.cancelled in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.638
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished.with.errs in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.638
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.639
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.stopped.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.639
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.deleting.output in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.639
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.build.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.640
+!MESSAGE NLS unused message: ManagedMakeBuilder.type.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.640
+!MESSAGE NLS unused message: ManagedMakeBuider.type.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.640
+!MESSAGE NLS unused message: ManagedMakeBuider.type.rebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.641
+!MESSAGE NLS unused message: ManagedMakeBuilder.warning.unsupported.configuration in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.641
+!MESSAGE NLS unused message: Option.error.bad_value_type in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.641
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_null in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.642
+!MESSAGE NLS unused message: ManagedBuildManager.error.null_owner in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.642
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.642
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest_load_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.643
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.643
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.643
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.resolving in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.644
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.duplicate in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.644
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.icon in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.645
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.category in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.645
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.filter in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.646
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.valuehandler in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.646
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.647
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.647
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.648
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.648
+!MESSAGE NLS unused message: ManagedBuildManager.error.read_only in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.648
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.649
+!MESSAGE NLS unused message: ManagedBuildManager.error.id.nomatch in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.649
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.file.missing in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.649
+!MESSAGE NLS unused message: MakefileGenerator.message.start.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.650
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.650
+!MESSAGE NLS unused message: MakefileGenerator.message.start.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.659
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.660
+!MESSAGE NLS unused message: MakefileGenerator.message.start.dependency in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.660
+!MESSAGE NLS unused message: MakefileGenerator.message.no.target in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.660
+!MESSAGE NLS unused message: MakefileGenerator.message.adding.source.folder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.661
+!MESSAGE NLS unused message: MakefileGenerator.message.gen.source.makefile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.661
+!MESSAGE NLS unused message: MakefileGenerator.message.calc.delta in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.661
+!MESSAGE NLS unused message: MakefileGenerator.message.finding.sources in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.662
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.662
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.variables in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.662
+!MESSAGE NLS unused message: MakefileGenerator.comment.source.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.663
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.rule in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.663
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toprules in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.663
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.alltarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.664
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.mainbuildtarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.664
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toptargets in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.664
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.make.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.665
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.dep.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.665
+!MESSAGE NLS unused message: MakefileGenerator.comment.autodeps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.665
+!MESSAGE NLS unused message: MakefileGenerator.comment.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.666
+!MESSAGE NLS unused message: MakefileGenerator.error.spaces in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.666
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Make_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.666
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Command in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.667
+!MESSAGE NLS unused message: MakeBuilder.Updating_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.667
+!MESSAGE NLS unused message: MakeBuilder.Creating_Markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.667
+!MESSAGE NLS unused message: MakefileGenerator.warning.no.source in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.668
+!MESSAGE NLS unused message: MakefileGenerator.error.no.nameprovider in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.668
+!MESSAGE NLS unused message: ManagedBuildInfo.message.job.init in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.668
+!MESSAGE NLS unused message: ManagedBuildInfo.message.init.ok in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.669
+!MESSAGE NLS unused message: GnuMakefileGenerator.message.postproc.dep.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.669
+!MESSAGE NLS unused message: Configuration.orphaned in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.669
+!MESSAGE NLS unused message: Tool.default.announcement in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.670
+!MESSAGE NLS unused message: Tool_Problem_Discovering_Args_For_Option in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.670
+!MESSAGE NLS unused message: StorableEnvironmentLoader.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.671
+!MESSAGE NLS unused message: UserDefinedMacroSupplier.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.671
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.672
+!MESSAGE NLS unused message: BuildFilesAction.buildingSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.672
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.673
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.673
+!MESSAGE NLS unused message: BuildFilesAction.buildSelectedFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.674
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.eachother in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.674
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.incorrect in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.674
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.string in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.675
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.stringlist in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.675
+!MESSAGE NLS unused message: BuildMacroStatus.status.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.676
+!MESSAGE NLS unused message: BuildMacroStatus.value.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.676
+!MESSAGE NLS unused message: BuildInfoFactory.Missing_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.677
+!MESSAGE NLS unused message: ResourceChangeHandler.buildInfoSerializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.677
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildResourcesFinished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.678
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedIncremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.678
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedRebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.679
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildingFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.679
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.680
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.680
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.680
+!MESSAGE NLS unused message: BuildFilesAction.building in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.681
+!MESSAGE NLS unused message: BuildFilesAction.buildFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.681
+!MESSAGE NLS unused message: ManagedBuilderCorePlugin.resourceChangeHandlingInitializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.682
+!MESSAGE NLS unused message: InternalBuilder.msg.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.682
+!MESSAGE NLS unused message: InternalBuilder.nothing.todo in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.683
+!MESSAGE NLS unused message: CfgScannerConfigUtil_ErrorNotSupported in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.683
+!MESSAGE NLS unused message: CleanFilesAction.cleanFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.684
+!MESSAGE NLS unused message: CleanFilesAction.cleanSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.684
+!MESSAGE NLS unused message: CleanFilesAction.cleaningFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.684
+!MESSAGE NLS unused message: BuilderFactory.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.685
+!MESSAGE NLS unused message: FolderInfo.4 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.685
+!MESSAGE NLS unused message: MbsMacroSupplier.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.686
+!MESSAGE NLS unused message: MbsMacroSupplier.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.686
+!MESSAGE NLS unused message: GnuLinkOutputNameProvider.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.687
+!MESSAGE NLS unused message: CommonBuilder.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.687
+!MESSAGE NLS unused message: CommonBuilder.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.687
+!MESSAGE NLS unused message: CommonBuilder.6 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.688
+!MESSAGE NLS unused message: CommonBuilder.7 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.688
+!MESSAGE NLS unused message: CommonBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.689
+!MESSAGE NLS unused message: CommonBuilder.16 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.689
+!MESSAGE NLS unused message: CommonBuilder.12 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.690
+!MESSAGE NLS unused message: CommonBuilder.13 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.690
+!MESSAGE NLS unused message: CommonBuilder.22 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.691
+!MESSAGE NLS unused message: CommonBuilder.23 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.691
+!MESSAGE NLS unused message: CommonBuilder.24 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.691
+!MESSAGE NLS unused message: MakeBuilder.buildError in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.692
+!MESSAGE NLS unused message: MultiResourceInfo.MultiResourceInfo.UnhandledIHoldsOptionsType in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.692
+!MESSAGE NLS unused message: ResourceChangeHandler2.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.692
+!MESSAGE NLS unused message: ToolInfo.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:15:15.693
+!MESSAGE NLS unused message: ToolInfo.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+!SESSION 2016-11-07 13:17:56.495 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -build ../Debug
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data ../ -build ../Debug
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.118
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.starting in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.121
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.rebuild.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.122
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.update.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.124
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.125
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.127
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.make in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.129
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.130
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.regen.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.132
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.136
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.creating.markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.138
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.console.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.138
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.header.note in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.139
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.no.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.140
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.141
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error.refresh in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.141
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.142
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.cancelled in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.143
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished.with.errs in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.144
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.145
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.stopped.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.146
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.deleting.output in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.147
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.build.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.148
+!MESSAGE NLS unused message: ManagedMakeBuilder.type.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.149
+!MESSAGE NLS unused message: ManagedMakeBuider.type.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.150
+!MESSAGE NLS unused message: ManagedMakeBuider.type.rebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.151
+!MESSAGE NLS unused message: ManagedMakeBuilder.warning.unsupported.configuration in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.152
+!MESSAGE NLS unused message: Option.error.bad_value_type in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.153
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_null in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.154
+!MESSAGE NLS unused message: ManagedBuildManager.error.null_owner in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.155
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.156
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest_load_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.157
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.158
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.158
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.resolving in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.159
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.duplicate in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.160
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.icon in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.161
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.category in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.161
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.filter in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.162
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.valuehandler in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.163
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.164
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.164
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.165
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.166
+!MESSAGE NLS unused message: ManagedBuildManager.error.read_only in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.167
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.167
+!MESSAGE NLS unused message: ManagedBuildManager.error.id.nomatch in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.168
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.file.missing in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.168
+!MESSAGE NLS unused message: MakefileGenerator.message.start.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.169
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.169
+!MESSAGE NLS unused message: MakefileGenerator.message.start.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.170
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.170
+!MESSAGE NLS unused message: MakefileGenerator.message.start.dependency in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.171
+!MESSAGE NLS unused message: MakefileGenerator.message.no.target in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.172
+!MESSAGE NLS unused message: MakefileGenerator.message.adding.source.folder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.172
+!MESSAGE NLS unused message: MakefileGenerator.message.gen.source.makefile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.173
+!MESSAGE NLS unused message: MakefileGenerator.message.calc.delta in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.173
+!MESSAGE NLS unused message: MakefileGenerator.message.finding.sources in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.174
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.174
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.variables in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.175
+!MESSAGE NLS unused message: MakefileGenerator.comment.source.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.175
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.rule in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.176
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toprules in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.176
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.alltarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.177
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.mainbuildtarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.177
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toptargets in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.178
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.make.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.178
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.dep.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.179
+!MESSAGE NLS unused message: MakefileGenerator.comment.autodeps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.179
+!MESSAGE NLS unused message: MakefileGenerator.comment.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.180
+!MESSAGE NLS unused message: MakefileGenerator.error.spaces in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.180
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Make_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.181
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Command in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.181
+!MESSAGE NLS unused message: MakeBuilder.Updating_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.182
+!MESSAGE NLS unused message: MakeBuilder.Creating_Markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.182
+!MESSAGE NLS unused message: MakefileGenerator.warning.no.source in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.183
+!MESSAGE NLS unused message: MakefileGenerator.error.no.nameprovider in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.183
+!MESSAGE NLS unused message: ManagedBuildInfo.message.job.init in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.184
+!MESSAGE NLS unused message: ManagedBuildInfo.message.init.ok in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.184
+!MESSAGE NLS unused message: GnuMakefileGenerator.message.postproc.dep.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.185
+!MESSAGE NLS unused message: Configuration.orphaned in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.185
+!MESSAGE NLS unused message: Tool.default.announcement in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.186
+!MESSAGE NLS unused message: Tool_Problem_Discovering_Args_For_Option in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.186
+!MESSAGE NLS unused message: StorableEnvironmentLoader.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.187
+!MESSAGE NLS unused message: UserDefinedMacroSupplier.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.187
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.188
+!MESSAGE NLS unused message: BuildFilesAction.buildingSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.189
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.189
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.190
+!MESSAGE NLS unused message: BuildFilesAction.buildSelectedFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.190
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.eachother in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.191
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.incorrect in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.191
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.string in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.192
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.stringlist in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.192
+!MESSAGE NLS unused message: BuildMacroStatus.status.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.193
+!MESSAGE NLS unused message: BuildMacroStatus.value.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.193
+!MESSAGE NLS unused message: BuildInfoFactory.Missing_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.194
+!MESSAGE NLS unused message: ResourceChangeHandler.buildInfoSerializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.194
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildResourcesFinished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.195
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedIncremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.195
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedRebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.196
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildingFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.196
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.196
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.196
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.197
+!MESSAGE NLS unused message: BuildFilesAction.building in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.197
+!MESSAGE NLS unused message: BuildFilesAction.buildFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.197
+!MESSAGE NLS unused message: ManagedBuilderCorePlugin.resourceChangeHandlingInitializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.198
+!MESSAGE NLS unused message: InternalBuilder.msg.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.198
+!MESSAGE NLS unused message: InternalBuilder.nothing.todo in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.198
+!MESSAGE NLS unused message: CfgScannerConfigUtil_ErrorNotSupported in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.199
+!MESSAGE NLS unused message: CleanFilesAction.cleanFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.199
+!MESSAGE NLS unused message: CleanFilesAction.cleanSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.199
+!MESSAGE NLS unused message: CleanFilesAction.cleaningFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.200
+!MESSAGE NLS unused message: BuilderFactory.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.200
+!MESSAGE NLS unused message: FolderInfo.4 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.200
+!MESSAGE NLS unused message: MbsMacroSupplier.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.201
+!MESSAGE NLS unused message: MbsMacroSupplier.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.201
+!MESSAGE NLS unused message: GnuLinkOutputNameProvider.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.201
+!MESSAGE NLS unused message: CommonBuilder.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.202
+!MESSAGE NLS unused message: CommonBuilder.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.202
+!MESSAGE NLS unused message: CommonBuilder.6 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.202
+!MESSAGE NLS unused message: CommonBuilder.7 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.203
+!MESSAGE NLS unused message: CommonBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.203
+!MESSAGE NLS unused message: CommonBuilder.16 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.203
+!MESSAGE NLS unused message: CommonBuilder.12 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.204
+!MESSAGE NLS unused message: CommonBuilder.13 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.204
+!MESSAGE NLS unused message: CommonBuilder.22 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.204
+!MESSAGE NLS unused message: CommonBuilder.23 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.205
+!MESSAGE NLS unused message: CommonBuilder.24 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.205
+!MESSAGE NLS unused message: MakeBuilder.buildError in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.205
+!MESSAGE NLS unused message: MultiResourceInfo.MultiResourceInfo.UnhandledIHoldsOptionsType in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.206
+!MESSAGE NLS unused message: ResourceChangeHandler2.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.206
+!MESSAGE NLS unused message: ToolInfo.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:17:58.206
+!MESSAGE NLS unused message: ToolInfo.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+!SESSION 2016-11-07 13:26:15.194 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -build ../Debug
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data ../ -build ../Debug
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.717
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.starting in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.718
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.rebuild.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.718
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.update.makefiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.719
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.719
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.720
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.make in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.720
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.721
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.regen.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.721
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.updating.deps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.722
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.creating.markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.723
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.console.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.723
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.header.note in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.724
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.no.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.724
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.725
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.error.refresh in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.726
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.726
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.cancelled in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.727
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.finished.with.errs in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.727
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.internal.builder.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.727
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.stopped.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.728
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.deleting.output in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.728
+!MESSAGE NLS unused message: ManagedMakeBuilder.message.clean.build.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.729
+!MESSAGE NLS unused message: ManagedMakeBuilder.type.clean in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.729
+!MESSAGE NLS unused message: ManagedMakeBuider.type.incremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.730
+!MESSAGE NLS unused message: ManagedMakeBuider.type.rebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.730
+!MESSAGE NLS unused message: ManagedMakeBuilder.warning.unsupported.configuration in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.730
+!MESSAGE NLS unused message: Option.error.bad_value_type in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.731
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_null in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.731
+!MESSAGE NLS unused message: ManagedBuildManager.error.null_owner in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.732
+!MESSAGE NLS unused message: ManagedBuildManager.error.owner_not_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.732
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest_load_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.733
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.733
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.733
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.resolving in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.734
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.duplicate in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.734
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.icon in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.734
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.category in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.735
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.filter in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.735
+!MESSAGE NLS unused message: ManagedBuildManager.error.manifest.option.valuehandler in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.736
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.736
+!MESSAGE NLS unused message: ManagedBuildManager.error.open_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.737
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed_title in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.737
+!MESSAGE NLS unused message: ManagedBuildManager.error.write_failed in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.738
+!MESSAGE NLS unused message: ManagedBuildManager.error.read_only in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.738
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.version.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.739
+!MESSAGE NLS unused message: ManagedBuildManager.error.id.nomatch in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.739
+!MESSAGE NLS unused message: ManagedBuildManager.error.project.file.missing in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.740
+!MESSAGE NLS unused message: MakefileGenerator.message.start.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.740
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.741
+!MESSAGE NLS unused message: MakefileGenerator.message.start.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.741
+!MESSAGE NLS unused message: MakefileGenerator.message.finish.build in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.741
+!MESSAGE NLS unused message: MakefileGenerator.message.start.dependency in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.742
+!MESSAGE NLS unused message: MakefileGenerator.message.no.target in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.742
+!MESSAGE NLS unused message: MakefileGenerator.message.adding.source.folder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.743
+!MESSAGE NLS unused message: MakefileGenerator.message.gen.source.makefile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.743
+!MESSAGE NLS unused message: MakefileGenerator.message.calc.delta in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.744
+!MESSAGE NLS unused message: MakefileGenerator.message.finding.sources in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.744
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.745
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.variables in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.745
+!MESSAGE NLS unused message: MakefileGenerator.comment.source.list in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.746
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.rule in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.746
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toprules in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.746
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.alltarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.747
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.mainbuildtarget in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.747
+!MESSAGE NLS unused message: MakefileGenerator.comment.build.toptargets in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.748
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.make.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.748
+!MESSAGE NLS unused message: MakefileGenerator.comment.module.dep.includes in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.749
+!MESSAGE NLS unused message: MakefileGenerator.comment.autodeps in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.749
+!MESSAGE NLS unused message: MakefileGenerator.comment.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.750
+!MESSAGE NLS unused message: MakefileGenerator.error.spaces in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.750
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Make_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.750
+!MESSAGE NLS unused message: MakeBuilder.Invoking_Command in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.751
+!MESSAGE NLS unused message: MakeBuilder.Updating_project in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.751
+!MESSAGE NLS unused message: MakeBuilder.Creating_Markers in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.752
+!MESSAGE NLS unused message: MakefileGenerator.warning.no.source in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.752
+!MESSAGE NLS unused message: MakefileGenerator.error.no.nameprovider in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.753
+!MESSAGE NLS unused message: ManagedBuildInfo.message.job.init in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.753
+!MESSAGE NLS unused message: ManagedBuildInfo.message.init.ok in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.754
+!MESSAGE NLS unused message: GnuMakefileGenerator.message.postproc.dep.file in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.754
+!MESSAGE NLS unused message: Configuration.orphaned in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.755
+!MESSAGE NLS unused message: Tool.default.announcement in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.755
+!MESSAGE NLS unused message: Tool_Problem_Discovering_Args_For_Option in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.756
+!MESSAGE NLS unused message: StorableEnvironmentLoader.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.756
+!MESSAGE NLS unused message: UserDefinedMacroSupplier.storeOutputStream.wrong.arguments in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.757
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.757
+!MESSAGE NLS unused message: BuildFilesAction.buildingSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.758
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.758
+!MESSAGE NLS unused message: BuildDescriptionGnuMakefileGenerator.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.758
+!MESSAGE NLS unused message: BuildFilesAction.buildSelectedFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.759
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.eachother in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.759
+!MESSAGE NLS unused message: BuildMacroStatus.status.reference.incorrect in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.760
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.string in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.760
+!MESSAGE NLS unused message: BuildMacroStatus.status.macro.not.stringlist in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.761
+!MESSAGE NLS unused message: BuildMacroStatus.status.error in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.761
+!MESSAGE NLS unused message: BuildMacroStatus.value.undefined in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.762
+!MESSAGE NLS unused message: BuildInfoFactory.Missing_Builder in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.762
+!MESSAGE NLS unused message: ResourceChangeHandler.buildInfoSerializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.763
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildResourcesFinished in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.763
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedIncremental in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.764
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildSelectedRebuild in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.765
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.buildingFile in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.765
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.765
+!MESSAGE NLS unused message: GenerateMakefileWithBuildDescription.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.766
+!MESSAGE NLS unused message: GeneratedMakefileBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.766
+!MESSAGE NLS unused message: BuildFilesAction.building in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.767
+!MESSAGE NLS unused message: BuildFilesAction.buildFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.767
+!MESSAGE NLS unused message: ManagedBuilderCorePlugin.resourceChangeHandlingInitializationJob in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.768
+!MESSAGE NLS unused message: InternalBuilder.msg.header in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.769
+!MESSAGE NLS unused message: InternalBuilder.nothing.todo in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.769
+!MESSAGE NLS unused message: CfgScannerConfigUtil_ErrorNotSupported in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.770
+!MESSAGE NLS unused message: CleanFilesAction.cleanFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.770
+!MESSAGE NLS unused message: CleanFilesAction.cleanSelectedFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.771
+!MESSAGE NLS unused message: CleanFilesAction.cleaningFiles in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.771
+!MESSAGE NLS unused message: BuilderFactory.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.772
+!MESSAGE NLS unused message: FolderInfo.4 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.772
+!MESSAGE NLS unused message: MbsMacroSupplier.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.772
+!MESSAGE NLS unused message: MbsMacroSupplier.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.773
+!MESSAGE NLS unused message: GnuLinkOutputNameProvider.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.773
+!MESSAGE NLS unused message: CommonBuilder.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.774
+!MESSAGE NLS unused message: CommonBuilder.2 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.774
+!MESSAGE NLS unused message: CommonBuilder.6 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.775
+!MESSAGE NLS unused message: CommonBuilder.7 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.775
+!MESSAGE NLS unused message: CommonBuilder.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.776
+!MESSAGE NLS unused message: CommonBuilder.16 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.776
+!MESSAGE NLS unused message: CommonBuilder.12 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.777
+!MESSAGE NLS unused message: CommonBuilder.13 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.777
+!MESSAGE NLS unused message: CommonBuilder.22 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.778
+!MESSAGE NLS unused message: CommonBuilder.23 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.778
+!MESSAGE NLS unused message: CommonBuilder.24 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.779
+!MESSAGE NLS unused message: MakeBuilder.buildError in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.779
+!MESSAGE NLS unused message: MultiResourceInfo.MultiResourceInfo.UnhandledIHoldsOptionsType in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.780
+!MESSAGE NLS unused message: ResourceChangeHandler2.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.780
+!MESSAGE NLS unused message: ToolInfo.0 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-07 13:26:16.781
+!MESSAGE NLS unused message: ToolInfo.1 in: org.eclipse.cdt.managedbuilder.internal.core.PluginResources
