@@ -1,1 +1,1 @@
-change the path of eclipse and just run build.bat in command line
+change the path of eclipse as C:\eclipse\eclipse.exe and just run build.bat in command line
